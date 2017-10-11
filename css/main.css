@@ -8,3 +8,17 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 1.5rem;
+  display: inline-block;
+}
+
+section div {
+  max-width: 25em;
+}
+
+img {
+  width: 100%;
+  max-width: 25em;
+}
