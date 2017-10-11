@@ -15,10 +15,15 @@ body {
 
 section {
   margin: 1.5rem;
+  max-width: 25em;
+}
+
+div {
+  display: inline-block;
 }
 
 img {
-  display: inline;
   width: 100%;
   max-width: 25em;
+  display: inline-block;
 }
