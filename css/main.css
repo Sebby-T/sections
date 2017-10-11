@@ -16,14 +16,33 @@ body {
 section {
   margin: 1.5rem;
   max-width: 25em;
+  display: inline-block;
 }
 
-div {
-  display: inline-block;
+section > div {
+  display: grid;
 }
 
 img {
   width: 100%;
   max-width: 25em;
+}
+
+.text {
+  display: inline-block;
+  text-align: left;
+}
+
+a {
   display: inline;
+  color: #333;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: #666;
+  color: #eee9de;
 }
