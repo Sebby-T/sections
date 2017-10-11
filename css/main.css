@@ -8,22 +8,3 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
-body {
-  display: inline-block;
-  margin: 1.5rem;
-  padding: 1em;
-  position: relative;
-}
-
-div {
-  max-width: 25em;
-  margin: 1.5rem;
-  display: inline-block;
-}
-
-img {
-  width: 100%;
-  max-width: 25em;
-  display: inline-block;
-}
