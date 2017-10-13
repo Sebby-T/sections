@@ -6,22 +6,17 @@ html {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
   line-height: 1.5;
+  background-color: #eee9de;
 }
 
 body {
   margin: 0;
 }
 
-section {
-  background-color: #eee9de;
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .box-a {
   max-width: 25em;
   display: inline-block;
-  padding: 2em 1em 0;
+  padding: 2em 1em .4em;
   margin-top: 1.5rem;
 }
 
@@ -39,12 +34,11 @@ img {
 }
 
 .box-b h2 {
-  margin: 1.5rem;
   margin: 0;
 }
 
 .box-b p {
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .btn {
@@ -55,7 +49,7 @@ img {
   padding: .4em .75em .5em;
   border: 3px solid #333;
   border-radius: 9px;
-  margin-bottom: 1.5rem;
+  margin: 0 0 1.5rem;
 }
 
 a:hover {
