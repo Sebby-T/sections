@@ -6,22 +6,27 @@ html {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  background-color: #eee9de;
 }
 
 body {
   margin: 0;
 }
 
+section {
+  background-color: #eee9de;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .box-a {
   max-width: 25em;
   display: inline-block;
-  padding: .4em .75em .5em;
-  margin: 0;
-  margin-left: auto;
+  padding: 2em 1em 0;
+  margin-top: 1.5rem;
 }
 
 img {
+  display: inline-block;
   width: 100%;
   max-width: 25em;
 }
@@ -40,7 +45,6 @@ img {
 
 .box-b p {
   margin-bottom: 1.5rem;
-  text-align: left;
 }
 
 .btn {
@@ -51,6 +55,7 @@ img {
   padding: .4em .75em .5em;
   border: 3px solid #333;
   border-radius: 9px;
+  margin-bottom: 1.5rem;
 }
 
 a:hover {
