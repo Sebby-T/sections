@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  text-align: center;
   font-family: Lato, sans-serif;
   line-height: 1.5;
   background-color: #eee9de;
@@ -21,9 +22,11 @@ body {
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
   max-width: 25em;
+  vertical-align: middle;
+  padding-top: 1em;
 }
 
 .box-b {
@@ -31,21 +34,24 @@ img {
   display: inline-block;
   padding: 1em;
   margin: 0;
+  text-align: left;
 }
 
 .box-b h2 {
   margin: 0;
+  text-align: left;
 }
 
 .box-b p {
   margin: 1.5rem 0;
+  text-align: left;
 }
 
 .btn {
   display: inline-block;
   color: #333;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   padding: .4em .75em .5em;
   border: 3px solid #333;
   border-radius: 9px;
