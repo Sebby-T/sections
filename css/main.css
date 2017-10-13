@@ -14,10 +14,6 @@ body {
   margin: 0;
 }
 
-section {
-  margin: 1.5em 0;
-}
-
 .box-a {
   max-width: 25em;
   display: inline-block;
