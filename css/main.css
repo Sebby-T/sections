@@ -17,7 +17,7 @@ body {
 .box-a {
   max-width: 25em;
   display: inline-block;
-  padding: .4em .75em .5em;
+  padding: 2em 1em .4em;
   margin-top: 1.5rem;
 }
 
@@ -51,7 +51,6 @@ img {
   color: #333;
   text-decoration: none;
   text-align: left;
-  font-size: 1.1rem;
   padding: .4em .75em .5em;
   border: 3px solid #333;
   border-radius: 9px;
