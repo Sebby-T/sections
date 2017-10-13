@@ -9,15 +9,21 @@ html {
   background-color: #eee9de;
 }
 
+body {
+  margin: 0;
+}
+
 .box-a {
   max-width: 25em;
   display: inline-block;
-  padding: 2em 1em;
+  padding: .4em .75em .5em;
   margin: 0;
+  margin-left: auto;
 }
 
 img {
   width: 100%;
+  max-width: 25em;
 }
 
 .box-b {
@@ -28,20 +34,23 @@ img {
 }
 
 .box-b h2 {
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
+  margin: 0;
 }
 
 .box-b p {
   margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .btn {
   display: inline-block;
   color: #333;
   text-decoration: none;
+  text-align: center;
   padding: .4em .75em .5em;
   border: 3px solid #333;
-  border-radius: 6px;
+  border-radius: 9px;
 }
 
 a:hover {
