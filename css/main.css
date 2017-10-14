@@ -43,19 +43,17 @@ img {
 
 .box-b h2 {
   margin: 0;
-  text-align: left;
 }
 
 .box-b p {
   margin: 1.5rem 0;
-  text-align: left;
 }
 
 .btn {
   display: inline-block;
   color: #333;
   text-decoration: none;
-  text-align: left;
+  font-size: 1.1rem;
   padding: .4em .75em .5em;
   border: 3px solid #333;
   border-radius: 9px;
