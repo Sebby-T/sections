@@ -12,27 +12,26 @@ html {
 
 body {
   margin: 0;
+  text-align: center;
 }
 
 .box-a {
   max-width: 25em;
   display: inline-block;
-  padding: 1.5em 1em 1em;
-  margin-top: 1.5rem;
+  padding: 1em 1em;
   vertical-align: middle;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 25em;
   vertical-align: middle;
 }
 
 .box-b {
   max-width: 25em;
   display: inline-block;
-  padding: 1em;
+  padding: 1em 1em;
   margin: 0;
   text-align: left;
   vertical-align: middle;
@@ -56,7 +55,7 @@ img {
   padding: .4em .75em .5em;
   border: 3px solid #333;
   border-radius: 9px;
-  margin: 0 0 1.5rem;
+  margin: 0;
 }
 
 a:hover {
